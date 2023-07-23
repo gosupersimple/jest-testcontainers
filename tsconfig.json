@@ -15,7 +15,7 @@
     "node_modules",
     "dist",
     "examples",
-    "src/**/*.spec.ts"
+    "src/**/*.test.ts"
   ],
   "types": [
     "./@types",

@@ -6,7 +6,6 @@
   "types": "dist/index",
   "files": [
     "dist",
-    "!dist/__tests__",
     "jest-preset.js"
   ],
   "scripts": {
