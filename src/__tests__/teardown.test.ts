@@ -1,4 +1,4 @@
-import teardown from "./teardown";
+import teardown from "../teardown";
 const CONTAINERS_GLOBAL_VARIABLE_KEY = "__TESTCONTAINERS__";
 
 describe("teardown", () => {

@@ -1,4 +1,4 @@
-import { JestTestcontainersConfig, parseConfig } from "./config";
+import { JestTestcontainersConfig, parseConfig } from "../config";
 
 describe("config", () => {
   describe("parseConfig", () => {

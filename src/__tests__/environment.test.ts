@@ -1,4 +1,4 @@
-import { setGlobalsWithJsonString } from "./environment";
+import { setGlobalsWithJsonString } from "../environment";
 
 describe("environment", () => {
   describe("setGlobalsWithJsonString", () => {
