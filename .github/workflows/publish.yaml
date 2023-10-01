@@ -1,0 +1,24 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  build:
+    name: Build NPM package
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish
+        run: |-
+          npm config set //npm.pkg.github.com/:_authToken $TOKEN
+          yarn install
+          yarn build
+          npm publish
+
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
