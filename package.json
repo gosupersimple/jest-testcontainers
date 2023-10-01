@@ -27,6 +27,10 @@
     "type": "git",
     "url": "git+https://github.com/gosupersimple/jest-testcontainers.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "restricted"
+  },
   "keywords": [
     "jest",
     "testcontainers",
